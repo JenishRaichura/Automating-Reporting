@@ -224,7 +224,7 @@ cur2 = connection.cursor()
 yesterday_date = dt.datetime.now() - dt.timedelta(days=1)
 yesterday_date_str = yesterday_date.strftime('%d-%b-%Y')
 
-# # Your SQL query with placeholders
+# SQL query with placeholders
 total_apps_status = """Select
 id,
 Ordernumber,
